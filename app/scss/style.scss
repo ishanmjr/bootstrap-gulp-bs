@@ -1,1 +1,82 @@
 @import "node_modules/bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Inter");
+
+body{
+    background-color: #fff;
+}
+
+.navbar-custom{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgb(180, 180, 180);
+    font-size: 30px;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgb(180, 180, 180);
+    font-size: 20px;
+}
+.landing-line{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    color: grey;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.card{
+    border: 0px;
+}
+.row{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.items{
+    margin-right: 220px;
+    margin-left: 220px;
+}
+
+.cart{
+    margin-right: 220px;
+    margin-left: 220px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    border-style: solid;
+    border-right: 0;
+    border-left: 0;
+    .cartitem{
+        font-size: 20px;
+    }
+    .list{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .removebtn{
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #DDDDDD;
+    }
+}
+.totalCost{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #DDDDDD;
+    font-size: 25px;
+}
+.container{
+    padding: 5px;
+}
+.none{
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .cart{
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+    }
+}
