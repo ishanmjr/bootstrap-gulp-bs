@@ -16,6 +16,8 @@
     "gulp-postcss": "^9.0.1",
     "gulp-sass": "^5.0.0",
     "gulp-terser": "^2.0.1",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
     "sass": "^1.42.1"
   }
 }

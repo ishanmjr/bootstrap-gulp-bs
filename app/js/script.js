@@ -13,6 +13,21 @@ let products = [
         name: "Apple Watch",
         price: 399,
         incart: 0
+    },
+    {
+        name: "Macbook Air",
+        price: 899,
+        incart: 0
+    },
+    {
+        name: "Airpods pro",
+        price: 399,
+        incart: 0
+    },
+    {
+        name: "Imac",
+        price: 1399,
+        incart: 0
     }
 ]
 
@@ -23,7 +38,7 @@ var cart = document.querySelectorAll(".cartItem");
 var removebt = document.querySelectorAll(".removebtn");
 
 
-for(let i = 0; i < 3; i++){
+for(let i = 0; i < 6; i++){
     addToCart[i].addEventListener('click', function(){
         noOfItems++;
         totalCost += products[i].price;
